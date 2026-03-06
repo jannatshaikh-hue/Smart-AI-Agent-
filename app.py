@@ -24,7 +24,6 @@ menu = st.sidebar.selectbox(
 # ---- ASK AI ----
 if menu == "Ask AI":
     st.header("Ask a Question")
-
     question = st.text_input("Enter your question")
 
     if st.button("Get Answer"):
